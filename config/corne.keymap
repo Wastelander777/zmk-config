@@ -14,10 +14,10 @@
 
         default_layer {
             // -----------------------------------------------------------------------------------------
-            // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | \  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+            // | ESC  |  Q   |  W   |  E   |  R   |  T   |  |  Y   |  U   |  I   |  O   |  P   | BKSP |
+            // | CTRL |  A   |  S   |  D   |  F   |  G   |  |  H   |  J   |  K   |  L   |  ;   |  '   |
+            // | SHFT |  Z   |  X   |  C   |  V   |  B   |  |  N   |  M   |  ,   |  .   |  /   |  TAB |
+            //                     | GUI  | LWR  | SPC  |  | ENT  | RSE  | ALT  |
 
             bindings = <
 &kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
@@ -29,10 +29,10 @@
 
         lower_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| LFT | DWN | UP  | RGT |     |   | BT0 | BT1 | BT2 | BT3 |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // | TAB  |  1   |  2   |  3   |  4   |  5   |  |  6   |  7   |  8   |  9   |  0   | BKSP |
+            // | CTRL | LFT  | DWN  |  UP  | RGT  | DEL  |  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |
+            // | SHFT |BT0   |BT1   |BT2   |BT3   |BT4   |  |  F7  |  F8  |  F9  | F10  | F11  | F12  |
+            //                      | GUI  |      | SPC  |  | ENT  |      | ALT  |
 
             bindings = <
 &kp TAB    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6   &kp N7  &kp N8    &kp N9   &kp N0   &kp BSPC
@@ -44,10 +44,10 @@
 
         raise_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // | TAB  |  !   |  @   |  #   |  $   |  %   |  |  ^   |  &   |  *   |  (   |  )   | BKSP |
+            // | CTRL | PGUP | PGDN | VOL+ | VOL- | MUTE |  |  -   |  =   |  [   |  ]   |  \   |  `   |
+            // | SHFT |  \   | FIND | PLAY | PREV | NEXT |  |  _   |  +   |  {   |  }   |  |   |  ~   |
+            //                      | GUI  |      | SPC  |  | ENT  |      | ALT  |
 
             bindings = <
 &kp TAB    &kp EXCL   &kp AT         &kp HASH          &kp DLLR      &kp PRCNT     &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
